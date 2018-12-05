@@ -16,7 +16,7 @@ describe('<App />', () => {
     const snapshot = renderer.create(<App />).toJSON();
 
     expect(snapshot).toMatchSnapshot();
-
   });
-
 });
+
+
